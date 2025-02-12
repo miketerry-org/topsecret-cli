@@ -1,0 +1,36 @@
+{
+  "name": "topsecret-cli",
+  "version": "0.5.0",
+  "description": "Command line utility for TopSecret package",
+  "main": "index.js",
+  "bin": {
+    "topsecret": "./index.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miketerry-org/topsecret-cli.git"
+  },
+  "keywords": [
+    "top",
+    "secret",
+    "cli",
+    "encrypt",
+    "decrypt",
+    "AES256",
+    "crypto"
+  ],
+  "author": "Mike Terry",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/miketerry-org/topsecret-cli/issues"
+  },
+  "homepage": "https://github.com/miketerry-org/topsecret-cli#readme",
+  "dependencies": {
+    "clipboardy": "^4.0.0",
+    "commander": "^13.1.0",
+    "topsecret": "^0.5.0"
+  }
+}
