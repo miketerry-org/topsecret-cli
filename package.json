@@ -29,8 +29,11 @@
   },
   "homepage": "https://github.com/miketerry-org/topsecret-cli#readme",
   "dependencies": {
-    "clipboardy": "^4.0.0",
+    "clipboard": "^2.0.11",
     "commander": "^13.1.0",
-    "topsecret": "^0.5.0"
+    "topsecret": "^0.6.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
