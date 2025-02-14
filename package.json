@@ -1,13 +1,13 @@
 {
   "name": "topsecret-cli",
-  "version": "0.7.0",
+  "version": "0.7.2",
   "description": "Command line utility for TopSecret package",
   "main": "index.js",
   "bin": {
     "topsecret": "./index.js"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --bail --watch"
   },
   "repository": {
     "type": "git",
