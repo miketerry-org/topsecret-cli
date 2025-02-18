@@ -1,6 +1,6 @@
 {
   "name": "topsecret-cli",
-  "version": "0.7.2",
+  "version": "0.7.3",
   "description": "Command line utility for TopSecret package",
   "main": "index.js",
   "bin": {
@@ -31,7 +31,8 @@
   "dependencies": {
     "clipboard": "^2.0.11",
     "commander": "^13.1.0",
-    "topsecret": "^0.6.0"
+    "copy-paste": "^1.5.3",
+    "topsecret": "^0.7.2"
   },
   "devDependencies": {
     "jest": "^29.7.0"
