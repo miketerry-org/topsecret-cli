@@ -1,12 +1,13 @@
 {
   "name": "topsecret-cli",
-  "version": "0.7.4",
+  "version": "0.7.5",
   "description": "Command line utility for TopSecret package",
   "main": "index.js",
   "bin": {
     "topsecret": "./index.js"
   },
   "scripts": {
+    "encrypt": "node index.js encrypt data/tenants.json data/tenants.secure --key-file data/encrypt-key.txt",
     "test": "jest --bail --watch"
   },
   "repository": {

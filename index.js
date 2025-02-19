@@ -5,9 +5,13 @@ const commander = require("commander");
 const decrypt = require("./lib/decrypt");
 const encrypt = require("./lib/encrypt");
 const generate = require("./lib/generate.js");
+const packageJson = require("./package.json"); // Load package.json
 
 // initialize commander program instance
 const program = new commander.Command();
+
+// set the version dynamically from package.json
+program.version(packageJson.version); // Gets version from package.json
 
 // need to use async function because clipboardy module is an ES6 module
 async function main() {
