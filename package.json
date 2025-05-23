@@ -1,6 +1,6 @@
 {
   "name": "topsecret-cli",
-  "version": "0.8.4",
+  "version": "0.9.0",
   "description": "Command line utility for TopSecret package",
   "main": "index.js",
   "bin": {
