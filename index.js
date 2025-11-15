@@ -1,13 +1,15 @@
 #!/usr/bin/env node
-// load any .env file
-require("dotenv").config();
 
 // load all required modules
+const path = require("path");
 const commander = require("commander");
 const decrypt = require("./lib/decrypt");
 const encrypt = require("./lib/encrypt");
 const generate = require("./lib/generate.js");
 const packageJson = require("./package.json"); // Load package.json
+
+const filename = path.resolve(process.cwd(), ".env");
+require("dotenv").config({ path: filename, override: true });
 
 // initialize commander program instance
 const program = new commander.Command();
