@@ -1,4 +1,6 @@
 #!/usr/bin/env node
+// load any .env file
+require("dotenv").config();
 
 // load all required modules
 const commander = require("commander");
