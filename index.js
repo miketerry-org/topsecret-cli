@@ -9,7 +9,7 @@ const generate = require("./lib/generate.js");
 const packageJson = require("./package.json"); // Load package.json
 
 const filename = path.resolve(process.cwd(), ".env");
-require("dotenv").config({ path: filename, override: true });
+require("dotenv").config({ path: filename, override: true, quiet: true });
 
 // initialize commander program instance
 const program = new commander.Command();

@@ -1,10 +1,10 @@
 {
   "name": "topsecret-cli",
-  "version": "0.12.0",
+  "version": "0.14.0",
   "description": "Command line utility for TopSecret package",
   "main": "index.js",
   "bin": {
-    "topsecret": "./index.js"
+    "topsecret": "index.js"
   },
   "scripts": {
     "generate": "node index.js generate",
